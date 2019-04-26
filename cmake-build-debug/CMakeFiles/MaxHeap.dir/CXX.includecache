@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lihong/CLionProjects/MaxHeap/SortTestHelper.h
+iostream
+-
+ctime
+-
+cassert
+-
+
+/Users/lihong/CLionProjects/MaxHeap/main.cpp
+iostream
+-
+algorithm
+-
+string
+-
+ctime
+-
+cmath
+-
+cassert
+-
+SortTestHelper.h
+/Users/lihong/CLionProjects/MaxHeap/SortTestHelper.h
+
